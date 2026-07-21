@@ -1,0 +1,21 @@
+# Установка всех библиотек:  pip install -r requirements.txt
+
+# --- Анализ данных ---
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1          # чтение .xlsx
+
+# --- Визуализация ---
+plotly>=5.24           # графики в ноутбуках (px)
+kaleido>=0.2           # экспорт plotly-карт в PNG (Блок 5)
+folium>=0.16           # интерактивные карты Минска (Блок 5)
+matplotlib>=3.8        # графики для PDF-отчёта
+
+# --- Прогноз ---
+statsmodels>=0.14      # Holt-Winters, прогноз VW (Блок 4)
+
+# --- Геокодинг / API ---
+requests>=2.31         # Nominatim (Блок 5), polza.ai (Блок 2)
+
+# --- Отчёт ---
+reportlab>=4.0         # сборка PDF-отчёта
